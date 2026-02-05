@@ -7,7 +7,7 @@ A script to extract the Subscribestar content
 ```nim
 import std/json
 import pkg/subscribestar
-
+https://subscribestar.adult/hoghuff
 let star = extractStar("starname", "cookies here")
 echo pretty %*star
 ```
